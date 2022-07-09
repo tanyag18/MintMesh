@@ -1,0 +1,51 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  grid-template-rows: 10% 90%;
+  color: #002854;
+}
+
+.header {
+  grid-template-columns: 1fr 3fr 1.5fr;
+}
+
+.main {
+  grid-template-columns: 1fr 3fr 1.5fr;
+}
+
+.left {
+  grid-template-rows: 80% 20%;
+}
+.middle {
+  grid-template-rows: 1.2fr 1fr;
+}
+
+.right {
+  grid-template-rows: 1fr 1fr;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inter {
+  font-family: inter;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #002854;
+  font-family: inter;
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  letter-spacing: -1px;
+}
